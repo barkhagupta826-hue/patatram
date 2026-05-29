@@ -12,7 +12,7 @@ A production-ready React + Tailwind CSS healthcare website built with:
 - `/about` — About Us (Mission, Team, Values)
 - `/director` — Director Profile (Bio, Timeline, Publications)
 - `/services` — Services (Interactive card/detail panel)
-- `/patient-guidelines` — Guidelines, FAQ, Rights, Insurance
+
 - `/gallery` — Filterable gallery with lightbox
 - `/contact` — Contact form + Info
 

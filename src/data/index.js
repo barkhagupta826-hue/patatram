@@ -1,133 +1,126 @@
 export const services = [
   {
     id: 1,
-    icon: 'Hand',
-    title: 'Occupational Therapy',
-    shortDesc: 'Helping children develop independence in daily activities and life skills.',
-    fullDesc: 'Occupational therapy helps children perform daily activities independently by improving hand-eye coordination, fine motor skills, balance, and sensory processing.',
-    conditions: ['Autism', 'ADHD', 'Sensory Processing Disorder', 'Writing Difficulties', 'Fine Motor Issues'],
-    duration: '3–10 weeks',
-    color: 'from-emerald-500 to-teal-700',
-    image: '/services/service.png'
+    icon: 'BookOpen',
+    title: 'Special Education',
+    shortDesc: 'Personalized educational support for children with special learning needs.',
+    fullDesc: 'Special education focuses on improving academic, social, and behavioural skills through individualized teaching methods designed according to each child’s learning ability.',
+    conditions: ['Autism', 'ADHD', 'Learning Disabilities', 'Developmental Delay'],
+    duration: 'Ongoing',
+    color: 'from-primary-500 to-teal-700',
+    image: '/services/service1.png'
   },
   {
     id: 2,
     icon: 'Activity',
-    title: 'Physiotherapy',
-    shortDesc: 'Improving movement, strength, and physical development in children.',
-    fullDesc: 'Physiotherapy supports children with physical challenges by improving motor skills, balance, flexibility, and overall movement abilities.',
-    conditions: ['Delayed Milestones', 'Muscle Stiffness', 'Balance Issues', 'Movement Difficulties'],
-    duration: '2–12 weeks',
-    color: 'from-teal-500 to-primary-700',
+    title: 'Sports & Physical Activities',
+    shortDesc: 'Enhancing physical fitness, coordination, and confidence in children.',
+    fullDesc: 'Physical activities and sports sessions help improve balance, motor skills, social interaction, and overall physical development in children.',
+    conditions: ['Autism', 'Low Muscle Strength', 'Coordination Issues', 'Hyperactivity'],
+    duration: 'Ongoing',
+    color: 'from-emerald-500 to-primary-700',
     image: '/services/service2.png'
   },
   {
     id: 3,
-    icon: 'Zap',
-    title: 'Sensory Integration Therapy',
-    shortDesc: 'Helping children process and respond to sensory information effectively.',
-    fullDesc: 'Sensory Integration Therapy helps regulate sensory responses related to touch, movement, sound, and more, improving behaviour and learning.',
-    conditions: ['Sensory Processing Disorder', 'Autism', 'Behavioural Issues', 'Attention Difficulties'],
-    duration: '4–12 weeks',
-    color: 'from-primary-500 to-emerald-700',
+    icon: 'MessageCircle',
+    title: 'Language Development',
+    shortDesc: 'Helping children improve communication and language abilities.',
+    fullDesc: 'Language development sessions focus on improving vocabulary, understanding, expression, and communication skills through engaging activities and therapies.',
+    conditions: ['Speech Delay', 'Autism', 'Communication Disorders', 'Language Delay'],
+    duration: 'Ongoing',
+    color: 'from-teal-500 to-primary-700',
     image: '/services/service3.png'
   },
   {
     id: 4,
-    icon: 'Baby',
-    title: 'Infant Stimulation & Early Intervention',
-    shortDesc: 'Supporting early development in infants and high-risk newborns.',
-    fullDesc: 'This therapy enhances sensory development, attention span, and brain growth in infants, especially those with developmental delays or NICU history.',
-    conditions: ['Developmental Delay', 'Premature Birth', 'NICU Cases', 'High Risk Infants'],
-    duration: '1–6 months',
-    color: 'from-rose-500 to-primary-700',
+    icon: 'School',
+    title: 'School-Like Classes',
+    shortDesc: 'Structured classroom learning environment for better academic growth.',
+    fullDesc: 'These classes provide children with a classroom-like setup to improve discipline, learning habits, attention span, and academic performance.',
+    conditions: ['Learning Difficulties', 'Autism', 'ADHD', 'Behavioural Challenges'],
+    duration: 'Ongoing',
+    color: 'from-primary-500 to-emerald-700',
     image: '/services/service4.png'
   },
   {
     id: 5,
-    icon: 'Settings',
-    title: 'Ergonomic Solutions',
-    shortDesc: 'Improving classroom and learning environments for better focus.',
-    fullDesc: 'We assess and modify school environments to improve posture, comfort, and learning ability through ergonomic adjustments.',
-    conditions: ['Learning Disabilities', 'Autism', 'ADHD', 'Posture Issues'],
-    duration: 'Custom Plan',
-    color: 'from-amber-500 to-primary-700',
+    icon: 'Brain',
+    title: 'ABA Therapy',
+    shortDesc: 'Behaviour-focused therapy for improving social and learning skills.',
+    fullDesc: 'Applied Behaviour Analysis (ABA) therapy helps children improve behaviour, communication, attention, and daily living skills using structured techniques.',
+    conditions: ['Autism', 'Behavioural Issues', 'Attention Difficulties', 'Developmental Disorders'],
+    duration: 'Ongoing',
+    color: 'from-rose-500 to-primary-700',
     image: '/services/service5.png'
   },
   {
     id: 6,
-    icon: 'MessageSquare',
-    title: 'Counselling',
-    shortDesc: 'Supporting emotional, behavioural, and social well-being of children.',
-    fullDesc: 'Counselling helps children manage emotions, behaviour, and social challenges, improving overall mental well-being.',
-    conditions: ['Anxiety', 'Behavioural Issues', 'Low Confidence', 'Social Difficulties'],
-    duration: '4–12 weeks',
-    color: 'from-primary-600 to-primary-800',
+    icon: 'Mic',
+    title: 'Speech Therapy',
+    shortDesc: 'Improving speech, language, and communication abilities.',
+    fullDesc: 'Speech therapy supports children in overcoming speech delays, pronunciation issues, and communication difficulties through specialized exercises.',
+    conditions: ['Speech Delay', 'Stammering', 'Autism', 'Communication Disorders'],
+    duration: 'Ongoing',
+    color: 'from-amber-500 to-primary-700',
     image: '/services/service6.png'
   },
   {
     id: 7,
-    icon: 'Users',
-    title: 'Group Therapy',
-    shortDesc: 'Building social and communication skills through group sessions.',
-    fullDesc: 'Group therapy helps children improve communication, confidence, and emotional management by interacting with peers.',
-    conditions: ['Social Anxiety', 'Poor Social Skills', 'Low Attention', 'Emotional Stress'],
+    icon: 'Hand',
+    title: 'Occupational Therapy',
+    shortDesc: 'Developing independence in everyday activities and motor skills.',
+    fullDesc: 'Occupational therapy helps children improve fine motor skills, sensory processing, coordination, and daily life activities for greater independence.',
+    conditions: ['Sensory Issues', 'Autism', 'Fine Motor Delay', 'ADHD'],
     duration: 'Ongoing',
-    color: 'from-teal-600 to-primary-700',
+    color: 'from-primary-600 to-primary-800',
     image: '/services/service7.png'
   },
   {
     id: 8,
-    icon: 'Mic',
-    title: 'Speech Therapy',
-    shortDesc: 'Improving speech, language, and communication skills.',
-    fullDesc: 'Speech therapy helps children overcome speech delays, stammering, and communication difficulties using specialized techniques.',
-    conditions: ['Speech Delay', 'Stammering', 'Apraxia', 'Communication Disorders'],
-    duration: '4–12 weeks',
-    color: 'from-emerald-600 to-primary-700',
+    icon: 'ClipboardList',
+    title: 'Development Assessment',
+    shortDesc: 'Evaluating developmental progress and identifying support needs.',
+    fullDesc: 'Development assessments help identify delays or challenges in cognitive, social, emotional, and physical development to create effective intervention plans.',
+    conditions: ['Developmental Delay', 'Autism', 'Learning Difficulties', 'Behavioural Concerns'],
+    duration: 'Ongoing',
+    color: 'from-teal-600 to-primary-700',
     image: '/services/service8.png'
   },
   {
     id: 9,
-    icon: 'BookOpen',
-    title: 'Special Education',
-    shortDesc: 'Personalised learning support for children with learning difficulties.',
-    fullDesc: 'Special education focuses on improving academic skills like reading, writing, and maths through personalised learning plans.',
-    conditions: ['Dyslexia', 'Dysgraphia', 'Dyscalculia', 'ADHD', 'Learning Disabilities'],
+    icon: 'Users',
+    title: 'Parent & Child Counselling',
+    shortDesc: 'Supporting emotional well-being and healthy family relationships.',
+    fullDesc: 'Counselling sessions help parents and children manage emotional, behavioural, and social challenges while improving communication and understanding.',
+    conditions: ['Anxiety', 'Behavioural Issues', 'Parenting Challenges', 'Emotional Stress'],
+    duration: 'Ongoing',
+    color: 'from-emerald-600 to-primary-700',
+    image: '/services/service9.png'
+  },
+  {
+    id: 10,
+    icon: 'Sun',
+    title: 'Daily Living Skills Training',
+    shortDesc: 'Teaching essential self-care and independent living skills.',
+    fullDesc: 'This program helps children learn daily activities such as eating, dressing, hygiene, and routine management to improve independence.',
+    conditions: ['Autism', 'Developmental Delay', 'Special Needs'],
     duration: 'Ongoing',
     color: 'from-primary-500 to-teal-700',
-    image: '/services/service9.png'
+    image: '/services/service10.png'
+  },
+  {
+    id: 11,
+    icon: 'HeartHandshake',
+    title: 'Psychological Counselling',
+    shortDesc: 'Improving emotional and mental well-being in children and families.',
+    fullDesc: 'Psychological counselling helps children and families cope with emotional, behavioural, and mental health concerns through professional guidance and support.',
+    conditions: ['Stress', 'Anxiety', 'Behavioural Challenges', 'Emotional Difficulties'],
+    duration: 'Ongoing',
+    color: 'from-purple-500 to-primary-700',
+    image: '/services/service11.png'
   }
 ];
-export const team = [
-  {
-    name: 'Dr. Priya Mehta',
-    role: 'Founder & Medical Director',
-    specialty: 'Neurorehabilitation Medicine',
-    experience: '22 years',
-    qualifications: ['MD (AIIMS Delhi)', 'DNB Neurology', 'Fellowship in Neurorehab (London)'],
-    image: null,
-    bio: 'Dr. Mehta founded NeuroVita with a vision to bring world-class rehabilitation medicine to India. Her work in neuroplasticity and recovery protocols has been published in leading international journals.',
-  },
-  {
-    name: 'Dr. Arjun Sharma',
-    role: 'Head of Physical Therapy',
-    specialty: 'Sports & Orthopedic Rehabilitation',
-    experience: '15 years',
-    qualifications: ['BPT, MPT (Ortho)', 'Certified Manual Therapist', 'McKenzie Method Certified'],
-    image: null,
-    bio: 'Dr. Sharma has rehabilitated national-level athletes and post-surgical patients with an evidence-based approach combining manual therapy and exercise science.',
-  },
-  {
-    name: 'Dr. Sunita Rao',
-    role: 'Senior Occupational Therapist',
-    specialty: 'Neurological OT & ADL Rehabilitation',
-    experience: '12 years',
-    qualifications: ['BOT, MOT (Neurology)', 'Certified Hand Therapist', 'SI Certification'],
-    image: null,
-    bio: 'Dr. Rao specializes in helping neurological patients regain independence in daily activities, using a client-centred and occupation-based therapy model.',
-  },
-]
 
 export const conditions = [
   'Stroke', 'Parkinson\'s Disease', 'Multiple Sclerosis', 'Spinal Cord Injury',
@@ -210,17 +203,7 @@ export const guidelines = [
   },
 ]
 
-export const galleryImages = [
-  { id: 1, category: 'Therapy', caption: 'State-of-the-art neurological therapy suite', color: 'bg-primary-200' },
-  { id: 2, category: 'Facility', caption: 'Modern rehabilitation gymnasium', color: 'bg-teal-200' },
-  { id: 3, category: 'Team', caption: 'Our multidisciplinary clinical team', color: 'bg-emerald-200' },
-  { id: 4, category: 'Therapy', caption: 'Hydrotherapy and aquatic rehabilitation pool', color: 'bg-primary-300' },
-  { id: 5, category: 'Facility', caption: 'Private patient recovery suites', color: 'bg-sand' },
-  { id: 6, category: 'Technology', caption: 'Robotic-assisted gait training', color: 'bg-teal-100' },
-  { id: 7, category: 'Technology', caption: 'EEG-based brain stimulation therapy', color: 'bg-primary-100' },
-  { id: 8, category: 'Team', caption: 'Speech therapy in session', color: 'bg-emerald-100' },
-  { id: 9, category: 'Facility', caption: 'Peaceful healing garden and outdoor space', color: 'bg-green-200' },
-]
+
 
 export const faqs = [
   {
@@ -240,3 +223,98 @@ export const faqs = [
     a: 'We accept most major health insurance plans and work with cashless facility partners. Please contact our billing team for specific information about your plan.',
   },
 ]
+
+
+export const galleryImages = [
+    {
+    id: 1,
+    image: '/gallery/Barkha.png',
+    category: 'Team',
+    caption: 'Barkha Gupta',
+    summary:
+      'Barkha Gupta is a dedicated Ph.D. scholar with a strong passion for special education and autism support. With over four years of experience, she has worked with more than 50 children, helping them develop communication, behavioral, and social skills through individualized and compassionate care. She completed her internships at Noor Manzil and Nichay Hospital, gaining valuable hands-on experience in supporting children with developmental needs. Known for her patient, kind-hearted, and empathetic nature, Barkha combines academic knowledge with practical expertise to create a positive and supportive environment for children and their families. Her commitment to continuous learning and meaningful contribution makes her a valued professional in the field of special education.',
+    color: 'bg-emerald-200',
+  },
+  {
+    id: 2,
+    image: '/gallery/Neetu.png',
+    category: 'Team',
+    caption: 'Neetu verma',
+    summary:
+      'Mrs. Neetu Verma is an RCI Registered Special Educator known for her child-centered approach and dedication to supporting children with autism, ADHD, developmental delays, and learning differences. With extensive hands-on experience, she designs individualized intervention programs that combine conceptual learning, activity-based methods, and evidence-informed strategies to enhance communication, behavior regulation, social skills, and functional independence. Recognized for her calm, empathetic, and supportive nature, she creates a nurturing environment where children feel confident, valued, and motivated to grow, while remaining committed to helping every child achieve greater independence and reach their full potential.',
+    color: 'bg-primary-200',
+  },
+
+  {
+    id: 3,
+    image: '/gallery/krishna.jpeg',
+    category: 'Facility',
+    caption: 'Modern rehabilitation gymnasium',
+    summary:
+      'A spacious rehabilitation gym featuring strength, balance, and mobility training equipment for faster recovery.',
+    color: 'bg-teal-200',
+  },
+
+
+
+  {
+    id: 4,
+    image: '/gallery/Lakshmi.png',
+    category: 'Team',
+    caption: 'Lakshmi tiwari',
+    summary:
+      'I am a passionate and dedicated professional in the field of psychology and special education, with over 4 years of experience working with children with autism and developmental challenges. I hold a Master’s degree in Psychology along with qualifications in counselling, which have given me a strong understanding of child behavior, emotional well-being, and learning needs. I also completed my internship at Nur Manzil Psychiatry Centre, where I gained valuable practical experience in supporting individuals with psychological and developmental concerns. My approach is compassionate, patient, and child-centered, focusing on helping children improve their emotional, behavioral, social, and learning skills while creating a positive and supportive environment for their growth and independence.',
+  },
+
+  
+]
+
+// {
+//     id: 5,
+//     image: '/gallery/recovery-room.jpg',
+//     category: 'Facility',
+//     caption: 'Private patient recovery suites',
+//     summary:
+//       'Comfortable and peaceful recovery suites created to support rest, healing, and personalized patient care.',
+//     color: 'bg-sand',
+//   },
+
+//   {
+//     id: 6,
+//     image: '/gallery/robotic-training.jpg',
+//     category: 'Technology',
+//     caption: 'Robotic-assisted gait training',
+//     summary:
+//       'Advanced robotic rehabilitation technology helping patients improve walking ability and movement coordination.',
+//     color: 'bg-teal-100',
+//   },
+
+//   {
+//     id: 7,
+//     image: '/gallery/eeg.jpg',
+//     category: 'Technology',
+//     caption: 'EEG-based brain stimulation therapy',
+//     summary:
+//       'Innovative EEG-guided therapy solutions designed to support neurological recovery and cognitive improvement.',
+//     color: 'bg-primary-100',
+//   },
+
+//   {
+//     id: 8,
+//     image: '/gallery/speech-therapy.jpg',
+//     category: 'Team',
+//     caption: 'Speech therapy in session',
+//     summary:
+//       'Personalized speech and communication therapy sessions helping patients regain confidence and language skills.',
+//     color: 'bg-emerald-100',
+//   },
+
+//   {
+//     id: 9,
+//     image: '/gallery/healing-garden.jpg',
+//     category: 'Facility',
+//     caption: 'Peaceful healing garden and outdoor space',
+//     summary:
+//       'A calm outdoor healing environment designed to promote relaxation, emotional well-being, and recovery.',
+//     color: 'bg-green-200',
+//   },

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
 
-/* ── Theme from VisionMission ── */
+
 const T = {
   dark: '#2d1a0e',
   mid: '#7a5c44',
@@ -16,7 +16,7 @@ const T = {
   dangerBg: 'transparent',
 }
 
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID'
+const EMAILJS_SERVICE_ID = 'service_5cnegpj'
 const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
 const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
 const TO_EMAIL = 'shivamgupta90353@gmail.com'
@@ -135,12 +135,19 @@ function ContactForm() {
           <label style={labelSt}>Service Needed</label>
           <select style={inputSt} name="service" value={form.service} onChange={set}>
             <option value="">Select a service</option>
-            <option>Neurological Rehabilitation</option>
-            <option>Physical Therapy</option>
+
+            <option>Special Education</option>
+            <option>Sports & Physical Activities</option>
+            <option>Language Development</option>
+            <option>School-Like Classes</option>
+            <option>ABA Therapy</option>
+            <option>Speech Therapy</option>
             <option>Occupational Therapy</option>
-            <option>Speech &amp; Language Therapy</option>
-            <option>Cardiac Rehabilitation</option>
-            <option>Pain Management</option>
+            <option>Development Assessment</option>
+            <option>Parent & Child Counselling</option>
+            <option>Daily Living Skills Training</option>
+            <option>Psychological Counselling</option>
+
             <option>General Enquiry</option>
           </select>
         </div>
@@ -185,9 +192,9 @@ function ContactForm() {
 /* ── Sidebar info data ── */
 const contactInfo = [
   { icon: MapPin, label: 'Address', lines: ['Near Gwari Railway Crossing,', 'Gomti Nagar Ext Phase-II,', 'Lucknow, UP – 226010'] },
-  { icon: Phone, label: 'Phone', lines: ['+91-9889156355', '+91-6389804084'] },
+  { icon: Phone, label: 'Phone', lines: ['+91-6389804084', '+91-9889156355'] },
   { icon: Mail, label: 'Email', lines: ['patatramrehab.1@gmail.com'] },
-  { icon: Clock, label: 'Hours', lines: ['Mon – Sat: 7:30 AM – 5:00 PM', 'Sunday: Closed'] },
+  { icon: Clock, label: 'Hours', lines: ['Mon – Fri: 10:00 AM – 6:00 PM', 'Sat: 10:00 AM – 2:00 PM'] },
 ]
 
 /* ── Dot divider (VisionMission style) ── */
@@ -450,7 +457,7 @@ export default function Contact() {
                   24 / 7 Emergency
                 </div>
                 <div style={{ fontFamily: "'Georgia', 'Times New Roman', serif", fontSize: 22, color: '#2d1a0e', fontWeight: 700, marginBottom: 6 }}>
-                  +91-9889156355
+                  +91-6389804084
                 </div>
                 <p style={{ color: '#7a5c44', fontSize: 12.5, fontFamily: "'Georgia', 'Times New Roman', serif", lineHeight: 1.65 }}>
                   For urgent rehabilitation needs or post-discharge concerns.

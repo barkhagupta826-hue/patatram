@@ -375,7 +375,7 @@ function CTASection() {
 
               {/* Secondary — teal outline */}
               <motion.a
-                href="tel:+91-9889156355"
+                href="tel:+91-6389804084"
                 whileHover={{ scale: 1.04, background: "rgba(61,184,200,0.12)" }}
                 whileTap={{ scale: 0.97 }}
                 transition={{ type: "spring", stiffness: 300 }}

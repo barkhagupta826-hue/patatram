@@ -7,7 +7,7 @@ const quickLinks = [
   { label: 'About Us', to: '/about' },
 
   { label: 'Services', to: '/services' },
-  { label: 'Patient Guidelines', to: '/patient-guidelines' },
+
   { label: 'Gallery', to: '/gallery' },
   { label: 'Contact', to: '/contact' },
 ]
@@ -118,7 +118,7 @@ export default function Footer() {
 
               <div className="flex gap-2">
                 <Phone size={14} className="text-orange-400 mt-1" />
-                <span>+91-9889156355</span>
+                <span>+91-6389804084</span>
               </div>
 
               <div className="flex gap-2">
