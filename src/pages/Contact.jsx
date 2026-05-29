@@ -17,9 +17,9 @@ const T = {
 }
 
 const EMAILJS_SERVICE_ID = 'service_5cnegpj'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
-const TO_EMAIL = 'shivamgupta90353@gmail.com'
+const EMAILJS_TEMPLATE_ID = 'template_3bca9gi'
+const EMAILJS_PUBLIC_KEY = 'D1i4hzYm8rUCwH6Hr'
+const TO_EMAIL = 'idoneusdigitalgroup@gmail.com'
 
 async function sendEmail(form) {
   const res = await fetch('https://api.emailjs.com/api/v1.0/email/send', {

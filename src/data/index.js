@@ -247,11 +247,11 @@ export const galleryImages = [
 
   {
     id: 3,
-    image: '/gallery/krishna.jpeg',
-    category: 'Facility',
-    caption: 'Modern rehabilitation gymnasium',
+    image: '/gallery/krishna.png',
+    category: 'Team',
+    caption: 'Krishna Verma',
     summary:
-      'A spacious rehabilitation gym featuring strength, balance, and mobility training equipment for faster recovery.',
+      'Krishna Singh is a dedicated and compassionate professional in the field of special education, holding certification registered with RCI (Rehabilitation Council of India). With over three years of hands-on experience, Krishna has worked extensively with children with disabilities, supporting their physical, emotional, and developmental growth.Throughout this journey, Krishna has successfully engaged with 30–40 children, helping them build confidence, improve motor skills, and enjoy active participation in various physical activities. Krishna specializes in conducting sports-based interventions, including cycling, skating, and other structured activities that promote coordination, balance, and overall well-being.With a strong belief in inclusive development, Krishna focuses on creating a supportive and motivating environment where every child can explore their abilities and reach their full potential. Their approach combines patience, creativity, and practical expertise to ensure each child receives personalized attention and encouragement.',
     color: 'bg-teal-200',
   },
 
